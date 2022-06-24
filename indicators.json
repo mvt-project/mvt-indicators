@@ -13,7 +13,7 @@
     },
     {
         "name": "RCS Lab Spyware Indicators of Compromise",
-        "source": "Google, Lookout, Amnesty International",
+        "source": "Google, Lookout",
         "reference": "https://blog.google/threat-analysis-group/italian-spyware-vendor-targets-users-in-italy-and-kazakhstan/",
         "stix2_url": "https://raw.githubusercontent.com/mvt-project/mvt-indicators/main/2022-06-23_rcs_lab/rcs.stix2"
     }
