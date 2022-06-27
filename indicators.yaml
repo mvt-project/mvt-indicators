@@ -9,6 +9,7 @@ indicators:
     github:
       owner: AmnestyTech
       repo: investigations
+      branch: master
       path: 2021-07-18_nso/pegasus.stix2
 
   -
@@ -23,6 +24,7 @@ indicators:
     github:
       owner: AmnestyTech
       repo: investigations
+      branch: master
       path: 2021-12-16_cytrox/cytrox.stix2
 
   -
@@ -36,4 +38,5 @@ indicators:
     github:
       owner: mvt-project
       repo: mvt-indicators
+      branch: main
       path: 2022-06-23_rcs_lab/rcs.stix2
