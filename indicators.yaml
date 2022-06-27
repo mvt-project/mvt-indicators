@@ -1,0 +1,39 @@
+indicators:
+  -
+    type: github
+    name: NSO Group Pegasus Indicators of Compromise
+    sources:
+      - Amnesty International
+    references:
+      - https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/
+    github:
+      owner: AmnestyTech
+      repo: investigations
+      path: 2021-07-18_nso/pegasus.stix2
+
+  -
+    type: github
+    name: Cytrox Predator Spyware Indicators of Compromise
+    sources:
+      - Meta
+      - Amnesty International
+      - Citizen Lab
+    references:
+      - https://citizenlab.ca/2021/12/pegasus-vs-predator-dissidents-doubly-infected-iphone-reveals-cytrox-mercenary-spyware/
+    github:
+      owner: AmnestyTech
+      repo: investigations
+      path: 2021-12-16_cytrox/cytrox.stix2
+
+  -
+    type: github
+    name: RCS Lab Spyware Indicators of Compromise
+    sources:
+      - Google
+      - Lookout
+    references:
+      - https://blog.google/threat-analysis-group/italian-spyware-vendor-targets-users-in-italy-and-kazakhstan/
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      path: 2022-06-23_rcs_lab/rcs.stix2
