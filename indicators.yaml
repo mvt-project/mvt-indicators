@@ -40,3 +40,16 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2022-06-23_rcs_lab/rcs.stix2
+
+  -
+    type: github
+    name: Stalkerware Indicators of Compromise
+    sources:
+      - ECHAP
+    references:
+      - https://github.com/AssoEchap/stalkerware-indicators
+    github:
+      owner: AssoEchap
+      repo: stalkerware-indicators
+      branch: master
+      path: generated/stalkerware.stix2
