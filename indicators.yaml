@@ -53,3 +53,17 @@ indicators:
       repo: stalkerware-indicators
       branch: master
       path: generated/stalkerware.stix2
+
+  -
+    type: github
+    name: Android Malware from Unknown Surveillance Company
+    sources:
+      - Amnesty International
+      - Google
+    references:
+      - https://blog.google/threat-analysis-group/spyware-vendors-use-0-days-and-n-days-against-popular-platforms/
+    github:
+      owner: AmnestyTech
+      repo: investigations
+      branch: master
+      path: 2023-03-29_android_campaign/malware.stix2
