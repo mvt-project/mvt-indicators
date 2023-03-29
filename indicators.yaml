@@ -56,12 +56,13 @@ indicators:
 
   -
     type: github
-    name: Android Malware from Unknown Surveillance Company
+    name: Surveillance campaign linked to mercenary spyware company
     sources:
       - Amnesty International
       - Google
     references:
       - https://blog.google/threat-analysis-group/spyware-vendors-use-0-days-and-n-days-against-popular-platforms/
+      - https://www.amnesty.org/en/latest/news/2023/03/new-android-hacking-campaign-linked-to-mercenary-spyware-company/
     github:
       owner: AmnestyTech
       repo: investigations
