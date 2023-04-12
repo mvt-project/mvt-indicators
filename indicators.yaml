@@ -68,3 +68,18 @@ indicators:
       repo: investigations
       branch: master
       path: 2023-03-29_android_campaign/malware.stix2
+
+  -
+    type: github
+    name: Quadream KingSpawn Indicators of Compromise
+    sources:
+      - Citizen Lab
+      - Microsoft
+    references:
+      - https://citizenlab.ca/2023/04/spyware-vendor-quadream-exploits-victims-customers/
+      - https://www.microsoft.com/en-us/security/blog/2023/04/11/dev-0196-quadreams-kingspawn-malware-used-to-target-civil-society-in-europe-north-america-the-middle-east-and-southeast-asia/
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2023-04-11_quadream/kingspawn.stix2
