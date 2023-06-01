@@ -1,0 +1,400 @@
+{
+    "type": "bundle",
+    "id": "bundle--7db13d28-a5c6-40b9-8a52-7fb49f1bb048",
+    "objects": [
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4",
+            "created": "2023-06-01T12:04:06.621503Z",
+            "modified": "2023-06-01T12:04:06.621503Z",
+            "name": "OperationTriangulation",
+            "description": "IOCs related to Operation Triangulation iOS spyware documented by Kaspersky Labs.",
+            "is_family": false
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--843a3796-999c-4286-9bb7-d7ec4d57b1db",
+            "created": "2023-06-01T12:04:06.62165Z",
+            "modified": "2023-06-01T12:04:06.62165Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='datamarketplace.net']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.62165Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a85c1f1c-e841-4b9f-957f-786c0ad3fa08",
+            "created": "2023-06-01T12:04:06.625567Z",
+            "modified": "2023-06-01T12:04:06.625567Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--843a3796-999c-4286-9bb7-d7ec4d57b1db",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c94c94ab-40f4-4f20-93cf-e700b6c52661",
+            "created": "2023-06-01T12:04:06.625867Z",
+            "modified": "2023-06-01T12:04:06.625867Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='backuprabbit.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.625867Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--74775ea0-2718-41a5-b8eb-92a0c4cfde2c",
+            "created": "2023-06-01T12:04:06.626403Z",
+            "modified": "2023-06-01T12:04:06.626403Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c94c94ab-40f4-4f20-93cf-e700b6c52661",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ecef2607-c38d-47d8-ad73-f16445016453",
+            "created": "2023-06-01T12:04:06.626487Z",
+            "modified": "2023-06-01T12:04:06.626487Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='unlimitedteacup.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.626487Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d8a86856-1723-4aea-999e-e0675289d78f",
+            "created": "2023-06-01T12:04:06.626921Z",
+            "modified": "2023-06-01T12:04:06.626921Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--ecef2607-c38d-47d8-ad73-f16445016453",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f8612a65-0b71-43bb-a6d4-504acbb79f6c",
+            "created": "2023-06-01T12:04:06.627003Z",
+            "modified": "2023-06-01T12:04:06.627003Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='web-trackers.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.627003Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e6e42a24-a515-4d90-a3be-7cf10df11345",
+            "created": "2023-06-01T12:04:06.627434Z",
+            "modified": "2023-06-01T12:04:06.627434Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--f8612a65-0b71-43bb-a6d4-504acbb79f6c",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1c0957b1-64ff-48d1-b40b-8f703c1fd579",
+            "created": "2023-06-01T12:04:06.627519Z",
+            "modified": "2023-06-01T12:04:06.627519Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='addatamarket.net']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.627519Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dba97875-9133-445c-af6c-599b23cd1dfa",
+            "created": "2023-06-01T12:04:06.627895Z",
+            "modified": "2023-06-01T12:04:06.627895Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--1c0957b1-64ff-48d1-b40b-8f703c1fd579",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--eee6835b-7147-449c-a503-23fb0451d25a",
+            "created": "2023-06-01T12:04:06.627977Z",
+            "modified": "2023-06-01T12:04:06.627977Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='topographyupdates.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.627977Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e25e6eb3-fb1c-446b-9add-722cdffbc6b1",
+            "created": "2023-06-01T12:04:06.628439Z",
+            "modified": "2023-06-01T12:04:06.628439Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--eee6835b-7147-449c-a503-23fb0451d25a",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7eea5c8f-8c56-47c8-9513-36a334ad269e",
+            "created": "2023-06-01T12:04:06.628515Z",
+            "modified": "2023-06-01T12:04:06.628515Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='anstv.net']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.628515Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3eebeaeb-c1b5-4770-b523-94c04a7e664c",
+            "created": "2023-06-01T12:04:06.628866Z",
+            "modified": "2023-06-01T12:04:06.628866Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--7eea5c8f-8c56-47c8-9513-36a334ad269e",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c239144b-0031-489d-bbb4-d249aaa79b12",
+            "created": "2023-06-01T12:04:06.628942Z",
+            "modified": "2023-06-01T12:04:06.628942Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='businessvideonews.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.628942Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cd3cafd9-90cf-4a0e-8e05-5bf8d54fb61c",
+            "created": "2023-06-01T12:04:06.629305Z",
+            "modified": "2023-06-01T12:04:06.629305Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c239144b-0031-489d-bbb4-d249aaa79b12",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d3eade2a-e23c-4a3f-ae41-3c0ba9c1c944",
+            "created": "2023-06-01T12:04:06.629381Z",
+            "modified": "2023-06-01T12:04:06.629381Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='growthtransport.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.629381Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--da5bc012-6dc1-4f0f-928c-bf962fa26e9f",
+            "created": "2023-06-01T12:04:06.629746Z",
+            "modified": "2023-06-01T12:04:06.629746Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--d3eade2a-e23c-4a3f-ae41-3c0ba9c1c944",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--eb4f5bb8-e3e2-4503-ab3e-2be01f129a72",
+            "created": "2023-06-01T12:04:06.629825Z",
+            "modified": "2023-06-01T12:04:06.629825Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='tagclick-cdn.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.629825Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8e32e450-fcfe-47e6-8ee9-0d617fae1860",
+            "created": "2023-06-01T12:04:06.630207Z",
+            "modified": "2023-06-01T12:04:06.630207Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--eb4f5bb8-e3e2-4503-ab3e-2be01f129a72",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--db8a5fc9-23dc-46df-9192-5288503e6eaa",
+            "created": "2023-06-01T12:04:06.630323Z",
+            "modified": "2023-06-01T12:04:06.630323Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='mobilegamerstats.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.630323Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8cccc22c-a1de-4272-99d0-2fff1c275672",
+            "created": "2023-06-01T12:04:06.63127Z",
+            "modified": "2023-06-01T12:04:06.63127Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--db8a5fc9-23dc-46df-9192-5288503e6eaa",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4fb1f174-ac10-41d3-8b7a-0bee22d5a49d",
+            "created": "2023-06-01T12:04:06.631372Z",
+            "modified": "2023-06-01T12:04:06.631372Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='snoweeanalytics.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.631372Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a47fb7e2-f796-46d0-a35a-3f1db245cf92",
+            "created": "2023-06-01T12:04:06.631792Z",
+            "modified": "2023-06-01T12:04:06.631792Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--4fb1f174-ac10-41d3-8b7a-0bee22d5a49d",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--807f4df9-2c3e-4204-9c11-caa8a681cdd5",
+            "created": "2023-06-01T12:04:06.631879Z",
+            "modified": "2023-06-01T12:04:06.631879Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='ans7tv.net']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.631879Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2ed14bdf-e992-47fb-8353-d46dd62483b3",
+            "created": "2023-06-01T12:04:06.632254Z",
+            "modified": "2023-06-01T12:04:06.632254Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--807f4df9-2c3e-4204-9c11-caa8a681cdd5",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--083037f7-9e48-4b7f-8a49-6d760ae7576f",
+            "created": "2023-06-01T12:04:06.632335Z",
+            "modified": "2023-06-01T12:04:06.632335Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='virtuallaughing.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.632335Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dccaaf39-4948-4a0b-86bd-36520f8a2779",
+            "created": "2023-06-01T12:04:06.63271Z",
+            "modified": "2023-06-01T12:04:06.63271Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--083037f7-9e48-4b7f-8a49-6d760ae7576f",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--067c3ded-091b-49c4-b233-e01ef3da3b7a",
+            "created": "2023-06-01T12:04:06.632789Z",
+            "modified": "2023-06-01T12:04:06.632789Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='cloudsponcer.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.632789Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3bb93924-0a4a-4077-a3b9-147a5f05e3bb",
+            "created": "2023-06-01T12:04:06.633213Z",
+            "modified": "2023-06-01T12:04:06.633213Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--067c3ded-091b-49c4-b233-e01ef3da3b7a",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--74cdbf20-054a-44d4-9481-12d4c3671528",
+            "created": "2023-06-01T12:04:06.633295Z",
+            "modified": "2023-06-01T12:04:06.633295Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[process:name='BackupAgent']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-06-01T12:04:06.633295Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--707079b9-3ffa-4b9f-9304-6c462ef5a7c0",
+            "created": "2023-06-01T12:04:06.633994Z",
+            "modified": "2023-06-01T12:04:06.633994Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--74cdbf20-054a-44d4-9481-12d4c3671528",
+            "target_ref": "malware--62be2221-6396-45ed-9514-1741d7aa8bf4"
+        }
+    ]
+}

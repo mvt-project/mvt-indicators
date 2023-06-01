@@ -83,3 +83,16 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2023-04-11_quadream/kingspawn.stix2
+
+  -
+    type: github
+    name: Operation Triangulation Indicators of Compromise
+    sources:
+      - Kaspersky Lab
+    references:
+      - https://securelist.com/trng-2023/
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2023-06_01_operation_triangulation/operation_triangulation.stix2
