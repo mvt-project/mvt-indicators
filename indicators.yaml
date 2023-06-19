@@ -90,7 +90,7 @@ indicators:
     sources:
       - Kaspersky Lab
     references:
-      - https://securelist.com/trng-2023/
+      - https://securelist.com/operation-triangulation/109842/
     github:
       owner: mvt-project
       repo: mvt-indicators
