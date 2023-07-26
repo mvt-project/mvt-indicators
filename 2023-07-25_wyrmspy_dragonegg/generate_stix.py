@@ -15,8 +15,8 @@ if __name__ == "__main__":
     with open("ip-addresses.txt") as f:
         ips = list(set([a.strip() for a in f.read().split()]))
 
-    with open("sha1.txt") as f:
-        sha1 = list(set([a.strip() for a in f.read().split()]))
+    with open("sha256.txt") as f:
+        sha256 = list(set([a.strip() for a in f.read().split()]))
 
     with open("package_names.txt") as f:
         package_names = list(set([a.strip() for a in f.read().split()]))
@@ -35,8 +35,8 @@ if __name__ == "__main__":
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
 
-    for s in sha1:
-        i = Indicator(indicator_types=["malicious-activity"], pattern="[file:hashes.\'SHA-1\'='{}']".format(s), pattern_type="stix")
+    for s in sha256:
+        i = Indicator(indicator_types=["malicious-activity"], pattern="[file:hashes.sha256='{}']".format(s), pattern_type="stix")
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
 
