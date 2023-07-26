@@ -41,7 +41,7 @@ if __name__ == "__main__":
         res.append(Relationship(i, 'indicates', malware))
 
     for p in package_names:
-        i = Indicator(indicator_types=["malicious-activity"], pattern="[app:id'='{}']".format(p), pattern_type="stix")
+        i = Indicator(indicator_types=["malicious-activity"], pattern="[app:id='{}']".format(p), pattern_type="stix")
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
 
