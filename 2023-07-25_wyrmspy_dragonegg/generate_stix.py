@@ -18,6 +18,9 @@ if __name__ == "__main__":
     with open("sha1.txt") as f:
         sha1 = list(set([a.strip() for a in f.read().split()]))
 
+    with open("package_names.txt") as f:
+        package_names = list(set([a.strip() for a in f.read().split()]))
+
     res = []
     malware = Malware(name=malware_name, is_family=False, description="IOCs related to WyrmSpy and DragonEgg Android spyware documented by Lookout.")
     res.append(malware)
@@ -34,6 +37,11 @@ if __name__ == "__main__":
 
     for s in sha1:
         i = Indicator(indicator_types=["malicious-activity"], pattern="[file:hashes.\'SHA-1\'='{}']".format(s), pattern_type="stix")
+        res.append(i)
+        res.append(Relationship(i, 'indicates', malware))
+
+    for p in package_names:
+        i = Indicator(indicator_types=["malicious-activity"], pattern="[app:id'='{}']".format(p), pattern_type="stix")
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
 

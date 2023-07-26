@@ -1,0 +1,10 @@
+com.android.system.configs.service
+com.sec.android.provide.badge
+au.com.stklab.minehd
+com.hx.rootwifi
+com.adobe.flash.listen.beta
+com.adobe.flash.jni
+com.adobe.flash.dex
+remote.google.rt.googleservice
+org.telegram.messenger
+xx.an
