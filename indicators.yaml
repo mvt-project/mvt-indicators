@@ -96,3 +96,15 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2023-06_01_operation_triangulation/operation_triangulation.stix2
+  -
+    type: github
+    name: WyrmSpy and DragonEgg Indicators of Compromise
+    sources:
+      - Lookout
+    references:
+      - https://www.lookout.com/threat-intelligence/article/wyrmspy-dragonegg-surveillanceware-apt41
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2023-07-25_wyrmspy_dragonegg/wyrmspy_dragonegg.stix2
