@@ -1,0 +1,88 @@
+{
+    "type": "bundle",
+    "id": "bundle--eb1cabec-75ec-40c0-bf1f-e811a9b0a70c",
+    "objects": [
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--b950ae28-8b55-400d-98e2-021b52196dc5",
+            "created": "2023-08-04T21:19:38.956415Z",
+            "modified": "2023-08-04T21:19:38.956415Z",
+            "name": "Bahamut SafeChat",
+            "description": "IOCs related to Bahamut's SafeChat Android spyware documented by Cyfirma 2023-07-28.",
+            "is_family": false
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--72061278-91a6-4a6b-a5ee-7db77911ff30",
+            "created": "2023-08-04T21:19:38.956789Z",
+            "modified": "2023-08-04T21:19:38.956789Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='laborer-posted.nl']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-04T21:19:38.956789Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--55bc80db-eb8e-488f-9483-6a39794ed793",
+            "created": "2023-08-04T21:19:38.969061Z",
+            "modified": "2023-08-04T21:19:38.969061Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--72061278-91a6-4a6b-a5ee-7db77911ff30",
+            "target_ref": "malware--b950ae28-8b55-400d-98e2-021b52196dc5"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4fa1aa83-9bb5-46f2-a8bc-d16d9d0fc336",
+            "created": "2023-08-04T21:19:38.970295Z",
+            "modified": "2023-08-04T21:19:38.970295Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[file:hashes.sha256='8A35D0B20B6F057FE42E606A124CB84D78FA95900A16B056269F1CC613853989']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-04T21:19:38.970295Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--453c32a5-81e3-436d-b532-388f52e490f7",
+            "created": "2023-08-04T21:19:38.977655Z",
+            "modified": "2023-08-04T21:19:38.977655Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--4fa1aa83-9bb5-46f2-a8bc-d16d9d0fc336",
+            "target_ref": "malware--b950ae28-8b55-400d-98e2-021b52196dc5"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e687ecdc-512f-47c5-a4bb-590c1ce23023",
+            "created": "2023-08-04T21:19:38.978019Z",
+            "modified": "2023-08-04T21:19:38.978019Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[app:id='com.mchat.secure']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-04T21:19:38.978019Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd61fe7d-defe-4892-a217-83034206c144",
+            "created": "2023-08-04T21:19:38.980356Z",
+            "modified": "2023-08-04T21:19:38.980356Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--e687ecdc-512f-47c5-a4bb-590c1ce23023",
+            "target_ref": "malware--b950ae28-8b55-400d-98e2-021b52196dc5"
+        }
+    ]
+}
