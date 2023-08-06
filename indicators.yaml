@@ -121,4 +121,4 @@ indicators:
       owner: mvt-project
       repo: mvt-indicators
       branch: main
-      path: 2023_07_28-Bahamut-SafeChat/bahamut_safechat.stix2
+      path: 2023-07-28_Bahamut-SafeChat/bahamut_safechat.stix2
