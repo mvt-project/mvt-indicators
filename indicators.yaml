@@ -96,6 +96,7 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2023-06_01_operation_triangulation/operation_triangulation.stix2
+ 
   -
     type: github
     name: WyrmSpy and DragonEgg Indicators of Compromise
@@ -108,3 +109,16 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2023-07-25_wyrmspy_dragonegg/wyrmspy_dragonegg.stix2
+      
+  -
+    type: github
+    name: Bahamut SafeChat Indicators of Compromise
+    sources:
+      - Cyfirma
+    references:
+      - https://www.cyfirma.com/outofband/apt-bahamut-targets-individuals-with-android-malware-using-spear-messaging/
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2023-07-28_Bahamut-SafeChat/bahamut_safechat.stix2
