@@ -1,0 +1,280 @@
+{
+    "type": "bundle",
+    "id": "bundle--ca10ecb1-56b6-4b17-90c1-4edb1b8db63e",
+    "objects": [
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec",
+            "created": "2023-09-13T17:36:46.467241Z",
+            "modified": "2023-09-13T17:36:46.467241Z",
+            "name": "predator_greek_dpa",
+            "description": "Indicators linked to Predator by the Greek DPA",
+            "is_family": true
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--eaf6f38d-41b3-4e72-90b8-0fd6bfe904ab",
+            "created": "2023-09-13T17:36:46.469115Z",
+            "modified": "2023-09-13T17:36:46.469115Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='blogspot.edolio5.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.469115Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--95a51b77-529d-47dd-8b92-e45e70349a9b",
+            "created": "2023-09-13T17:36:46.478883Z",
+            "modified": "2023-09-13T17:36:46.478883Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--eaf6f38d-41b3-4e72-90b8-0fd6bfe904ab",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--037d494c-2682-41dc-9cd7-f3f746dbde07",
+            "created": "2023-09-13T17:36:46.479724Z",
+            "modified": "2023-09-13T17:36:46.479724Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='pdfviewer.app']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.479724Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--543fc926-6c9b-41f5-9f1e-58a38935bb57",
+            "created": "2023-09-13T17:36:46.481432Z",
+            "modified": "2023-09-13T17:36:46.481432Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--037d494c-2682-41dc-9cd7-f3f746dbde07",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--46a96e8d-f521-41ff-95b8-af0d9aa18ffc",
+            "created": "2023-09-13T17:36:46.481757Z",
+            "modified": "2023-09-13T17:36:46.481757Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='efsyn.news']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.481757Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9636fe9a-d891-4111-b838-7d6da47e31c9",
+            "created": "2023-09-13T17:36:46.482991Z",
+            "modified": "2023-09-13T17:36:46.482991Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--46a96e8d-f521-41ff-95b8-af0d9aa18ffc",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e3bf9f5d-6032-4dab-b361-c442abb6dc2c",
+            "created": "2023-09-13T17:36:46.483305Z",
+            "modified": "2023-09-13T17:36:46.483305Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='nassosblog.gr.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.483305Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4f67b9f9-1f9f-4886-9e5a-fb932f1423d0",
+            "created": "2023-09-13T17:36:46.484559Z",
+            "modified": "2023-09-13T17:36:46.484559Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--e3bf9f5d-6032-4dab-b361-c442abb6dc2c",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cd4dca53-ae10-48a4-864c-369a8ab3b7b8",
+            "created": "2023-09-13T17:36:46.484869Z",
+            "modified": "2023-09-13T17:36:46.484869Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='zougla.news']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.484869Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--352a971a-5e9c-4133-a93f-93adaa5ba8b3",
+            "created": "2023-09-13T17:36:46.485989Z",
+            "modified": "2023-09-13T17:36:46.485989Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--cd4dca53-ae10-48a4-864c-369a8ab3b7b8",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--27f425bb-9ca9-461d-bc8f-57f6378cc4df",
+            "created": "2023-09-13T17:36:46.486299Z",
+            "modified": "2023-09-13T17:36:46.486299Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='vouliwatch.gr.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.486299Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--38a06e79-0e2d-412d-a1a2-212f94d82820",
+            "created": "2023-09-13T17:36:46.487471Z",
+            "modified": "2023-09-13T17:36:46.487471Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--27f425bb-9ca9-461d-bc8f-57f6378cc4df",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f367544e-a6f4-4518-a7a4-7cc32e255123",
+            "created": "2023-09-13T17:36:46.487773Z",
+            "modified": "2023-09-13T17:36:46.487773Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='cnn.gr.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.487773Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--abe7df50-ef96-44da-b4df-0d84e1b3b5f6",
+            "created": "2023-09-13T17:36:46.488834Z",
+            "modified": "2023-09-13T17:36:46.488834Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--f367544e-a6f4-4518-a7a4-7cc32e255123",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5c585701-9027-4b72-9b1e-2801f006a8f0",
+            "created": "2023-09-13T17:36:46.489141Z",
+            "modified": "2023-09-13T17:36:46.489141Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='pronews.gr.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.489141Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eac7c3db-24e9-4713-9ffd-2706fdcf10ef",
+            "created": "2023-09-13T17:36:46.490101Z",
+            "modified": "2023-09-13T17:36:46.490101Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5c585701-9027-4b72-9b1e-2801f006a8f0",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ea020e51-3040-4645-a40a-d4d9be6b6e4b",
+            "created": "2023-09-13T17:36:46.490398Z",
+            "modified": "2023-09-13T17:36:46.490398Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='tvxs.news']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.490398Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f3971568-f6c5-4350-b0b2-b49558a13243",
+            "created": "2023-09-13T17:36:46.491587Z",
+            "modified": "2023-09-13T17:36:46.491587Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--ea020e51-3040-4645-a40a-d4d9be6b6e4b",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b3478b6b-c348-4d2f-91a8-d6b594b1a7de",
+            "created": "2023-09-13T17:36:46.491909Z",
+            "modified": "2023-09-13T17:36:46.491909Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='lubentv.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.491909Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--41cf3bc6-1878-4e80-98c5-5b08af818ff8",
+            "created": "2023-09-13T17:36:46.492959Z",
+            "modified": "2023-09-13T17:36:46.492959Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b3478b6b-c348-4d2f-91a8-d6b594b1a7de",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c3069f99-7be2-4e21-9096-087dc36a468e",
+            "created": "2023-09-13T17:36:46.493283Z",
+            "modified": "2023-09-13T17:36:46.493283Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='emvolio-gov.gr']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-13T17:36:46.493283Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--68e0b75d-6970-4c83-9835-e7b76fe1d2f3",
+            "created": "2023-09-13T17:36:46.494347Z",
+            "modified": "2023-09-13T17:36:46.494347Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c3069f99-7be2-4e21-9096-087dc36a468e",
+            "target_ref": "malware--1b84fdfa-c4f1-4b0d-b256-3e124587acec"
+        }
+    ]
+}
