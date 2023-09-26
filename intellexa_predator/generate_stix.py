@@ -4,8 +4,8 @@ from stix2.v21 import (Indicator, Malware, Relationship, Bundle, DomainName)
 
 
 if __name__ == "__main__":
-    if os.path.isfile("cytrox.stix2"):
-        os.remove("cytrox.stix2")
+    if os.path.isfile("predator.stix2"):
+        os.remove("predator.stix2")
 
     with open("config_profiles.txt") as f:
         configs = list(set([a.strip() for a in f.read().split()]))
@@ -18,7 +18,7 @@ if __name__ == "__main__":
         filepaths = list(set([a.strip() for a in f.read().split()]))
 
     res = []
-    malware = Malware(name="Predator", is_family=False, description="IOCs for Cytrox Predator")
+    malware = Malware(name="Predator", is_family=False, description="IOCs for Intellexa Predator")
     res.append(malware)
     for d in domains:
         i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
@@ -36,6 +36,6 @@ if __name__ == "__main__":
         res.append(Relationship(i, 'indicates', malware))
 
     bundle = Bundle(objects=res)
-    with open("cytrox.stix2", "w+") as f:
+    with open("predator.stix2", "w+") as f:
         f.write(bundle.serialize(indent=4))
-    print("cytrox.stix2 file created")
+    print("predator.stix2 file created")
