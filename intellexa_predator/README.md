@@ -12,7 +12,7 @@ This repository contains network and device indicators of compromised (IoCs) rel
 The STIX2 file can be used with the [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) to look for potential signs of compromise on Android phones and iPhones.
 
 It includes the following files:
-* `config_profiles.txt`: UUID of suspicious configuration profiles dropped by the Cytrox spyware
+* `config_profiles.txt`: UUID of suspicious configuration profiles dropped by the Predator spyware
 * `predator.stix2`: [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro.html) file containing all indicators
-* `domains.txt`: list of Cytrox domains
-* `file_paths.txt`: file paths for Cytrox payloads on disk in Android and iOS.
+* `domains.txt`: list of Predator domains
+* `file_paths.txt`: file paths for Predator payloads on disk in Android and iOS.
