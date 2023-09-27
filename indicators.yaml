@@ -14,18 +14,24 @@ indicators:
 
   -
     type: github
-    name: Cytrox Predator Spyware Indicators of Compromise
+    name: Predator Spyware Indicators of Compromise
     sources:
       - Meta
       - Amnesty International
       - Citizen Lab
+      - Cisco
+      - Inside Story
     references:
       - https://citizenlab.ca/2021/12/pegasus-vs-predator-dissidents-doubly-infected-iphone-reveals-cytrox-mercenary-spyware/
+      - https://about.fb.com/news/2021/12/taking-action-against-surveillance-for-hire/
+      - https://blog.talosintelligence.com/mercenary-intellexa-predator/
+      - https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/
+      - https://insidestory.gr/article/predatorgate-ti-egrafan-ta-sms-pagida-poy-elavan-epiheirimaties-ypoyrgoi-kai-dimosiografoi
     github:
-      owner: AmnestyTech
-      repo: investigations
-      branch: master
-      path: 2021-12-16_cytrox/cytrox.stix2
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: intellexa_predator/predator.stix2
 
   -
     type: github
@@ -96,6 +102,7 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2023-06_01_operation_triangulation/operation_triangulation.stix2
+
   -
     type: github
     name: WyrmSpy and DragonEgg Indicators of Compromise
