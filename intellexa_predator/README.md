@@ -7,6 +7,7 @@ This repository contains network and device indicators of compromised (IoCs) rel
 * ["Predator in the wires - Ahmed Eltantawy Targeted with Predator Spyware After Announcing Presidential Ambitions"](https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/) report by the Citizen Lab
 * [Mercenary mayhem: A technical analysis of Intellexa's PREDATOR spyware](https://blog.talosintelligence.com/mercenary-intellexa-predator/) by Cisco Talos
 * [Predatorgate: Τι έγραφαν τα SMS-παγίδα που έλαβαν επιχειρηματίες, υπουργοί και δημοσιογράφοι](https://insidestory.gr/article/predatorgate-ti-egrafan-ta-sms-pagida-poy-elavan-epiheirimaties-ypoyrgoi-kai-dimosiografoi) by Inside Story
+* [Active Lycantrox infrastructure illumination](https://blog.sekoia.io/active-lycantrox-infrastructure-illumination/) by Sekoia
 * Additional indicators of compromise were identified by the Amnesty Tech Security Lab as part of an independent investigation.
 
 The STIX2 file can be used with the [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) to look for potential signs of compromise on Android phones and iPhones.
