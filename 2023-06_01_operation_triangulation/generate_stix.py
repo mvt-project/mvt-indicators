@@ -15,6 +15,9 @@ if __name__ == "__main__":
     with open("processes.txt") as f:
         processes = list(set([a.strip() for a in f.read().split()]))
 
+    with open("emails.txt") as f:
+        emails = list(set([a.strip() for a in f.read().split()]))
+
     res = []
     malware = Malware(name=malware_name, is_family=False, description="IOCs related to Operation Triangulation iOS spyware documented by Kaspersky Labs.")
     res.append(malware)
@@ -25,6 +28,11 @@ if __name__ == "__main__":
 
     for p in processes:
         i = Indicator(indicator_types=["malicious-activity"], pattern="[process:name='{}']".format(p), pattern_type="stix")
+        res.append(i)
+        res.append(Relationship(i, 'indicates', malware))
+
+    for e in emails:
+        i = Indicator(indicator_types=["malicious-activity"], pattern="[email-addr:value='{}']".format(e), pattern_type="stix")
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
 
