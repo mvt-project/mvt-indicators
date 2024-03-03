@@ -6,8 +6,3 @@ The indicators were published in the following report: [Predator Spyware Operato
 
 The STIX2 file can be used with the [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) to look for potential signs of compromise on Android phones and iPhones.
 
-It includes the following files:
-* `config_profiles.txt`: UUID of suspicious configuration profiles dropped by the Predator spyware
-* `predator.stix2`: [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro.html) file containing all indicators
-* `domains.txt`: list of Predator domains
-* `file_paths.txt`: file paths for Predator payloads on disk in Android and iOS.
