@@ -115,3 +115,16 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2023-07-25_wyrmspy_dragonegg/wyrmspy_dragonegg.stix2
+
+  -
+    type: github
+    name: Wintego Helios Indicators of Compromise
+    sources:
+      - Amnesty International
+    references:
+      - https://securitylab.amnesty.org/latest/2024/05/a-web-of-surveillance/
+    github:
+      owner: AmnestyTech
+      repo: investigations
+      branch: master
+      path: 2024-05-02_wintego_helios/wintego_helios.stix2
