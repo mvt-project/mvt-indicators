@@ -128,3 +128,16 @@ indicators:
       repo: investigations
       branch: master
       path: 2024-05-02_wintego_helios/wintego_helios.stix2
+
+  -
+    type: github
+    name: NoviSpy (Serbia) Indicators of Compromise
+    sources:
+      - Amnesty International
+    references:
+      - https://securitylab.amnesty.org/latest/2024/12/serbia-a-digital-prison-spyware-and-cellebrite-used-on-journalists-and-activists/
+    github:
+      owner: AmnestyTech
+      repo: investigations
+      branch: master
+      path: 2024-12-16_serbia_novispy/novispy.stix2
