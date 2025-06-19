@@ -21,12 +21,14 @@ indicators:
       - Citizen Lab
       - Cisco
       - Inside Story
+      - iVerify
     references:
       - https://citizenlab.ca/2021/12/pegasus-vs-predator-dissidents-doubly-infected-iphone-reveals-cytrox-mercenary-spyware/
       - https://about.fb.com/news/2021/12/taking-action-against-surveillance-for-hire/
       - https://blog.talosintelligence.com/mercenary-intellexa-predator/
       - https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/
       - https://insidestory.gr/article/predatorgate-ti-egrafan-ta-sms-pagida-poy-elavan-epiheirimaties-ypoyrgoi-kai-dimosiografoi
+      - https://iverify.io/blog/trust-broken-at-the-core
     github:
       owner: mvt-project
       repo: mvt-indicators

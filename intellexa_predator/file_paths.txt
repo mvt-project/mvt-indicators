@@ -2,6 +2,15 @@
 /private/var/tmp/com.apple.WebKit.Networking
 /private/var/tmp/hooker
 /private/var/tmp/takePhoto
+/private/var/logs/keybagd
+/private/var/tmp/kusama.txt
+/private/var/tmp/etherium.txt
+/private/var/tmp/helper.sock
+/private/var/tmp/etherium.txt
+/private/var/tmp/l
+/tmp/etherium.txt
+/tmp/kusama.txt
+/tmp/l
 /data/local/tmp/wd/pred.so
 /data/local/tmp/wd/fs.db
 /data/local/tmp/wd/
