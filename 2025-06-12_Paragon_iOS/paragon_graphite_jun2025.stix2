@@ -1,0 +1,40 @@
+{
+    "type": "bundle",
+    "id": "bundle--ce7232bd-8820-4eac-a8ce-ea155f95db83",
+    "objects": [
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--6b23e55b-5518-425f-8a3d-ba2f2fb0b4d4",
+            "created": "2025-07-13T15:44:30.27694Z",
+            "modified": "2025-07-13T15:44:30.27694Z",
+            "name": "Paragon_Graphite_iOS_Attack",
+            "description": "Indicators from Citizen Lab report 'Graphite Caught: First Forensic Confirmation of Paragon\u2019s iOS Mercenary Spyware Finds Journalists Targeted' published on 2025-06-12.",
+            "is_family": true
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--741afc94-60e7-4f54-b2d4-36abf952ebb8",
+            "created": "2025-07-13T15:44:30.278142Z",
+            "modified": "2025-07-13T15:44:30.278142Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='46.183.184.91summerartcamp.net']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-07-13T15:44:30.278142Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aae01e84-033b-4c0e-8fc7-84e6341498ed",
+            "created": "2025-07-13T15:44:30.281278Z",
+            "modified": "2025-07-13T15:44:30.281278Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--741afc94-60e7-4f54-b2d4-36abf952ebb8",
+            "target_ref": "malware--6b23e55b-5518-425f-8a3d-ba2f2fb0b4d4"
+        }
+    ]
+}
