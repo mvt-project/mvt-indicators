@@ -157,4 +157,4 @@ indicators:
       owner: mvt-project
       repo: mvt-indicators
       branch: master
-      path: 2025_08_05_candiru_rf/candiru.stix2
+      path: candiru/candiru.stix2
