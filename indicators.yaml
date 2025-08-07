@@ -143,3 +143,18 @@ indicators:
       repo: investigations
       branch: master
       path: 2024-12-16_serbia_novispy/novispy.stix2
+
+  -
+    type: github
+    name: Candiru (DevilsTongue) Indicators of Compromise
+    sources:
+      - Microsoft
+      - Recorded Future
+    references:
+      - https://www.microsoft.com/en-us/security/blog/2021/07/15/protecting-customers-from-a-private-sector-offensive-actor-using-0-day-exploits-and-devilstongue-malware/
+      - https://www.recordedfuture.com/research/tracking-candirus-devilstongue-spyware
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: master
+      path: 2025_08_05_candiru_rf/candiru.stix2
