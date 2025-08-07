@@ -13,7 +13,7 @@ if __name__ == "__main__":
         domains = list(set([a.strip() for a in f.read().split()]))
 
     res = []
-    malware = Malware(name=malware_name, is_family=False, description="IOCs related to Candiru's DevilsTongue as documented by Recorded Future.")
+    malware = Malware(name=malware_name, is_family=False, description="IOCs related to Candiru's DevilsTongue.")
     res.append(malware)
     for d in domains:
         i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
