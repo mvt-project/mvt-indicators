@@ -12,12 +12,6 @@ if __name__ == "__main__":
     with open("domains.txt") as f:
         domains = list(set([a.strip() for a in f.read().split()]))
 
-    with open("processes.txt") as f:
-        processes = list(set([a.strip() for a in f.read().split()]))
-
-    with open("emails.txt") as f:
-        emails = list(set([a.strip() for a in f.read().split()]))
-
     res = []
     malware = Malware(name=malware_name, is_family=False, description="IOCs related to Candiru's DevilsTongue as documented by Recorded Future.")
     res.append(malware)
