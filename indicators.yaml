@@ -158,3 +158,18 @@ indicators:
       repo: mvt-indicators
       branch: master
       path: candiru/candiru.stix2
+
+  -
+    type: github
+    name: ResidentBat Indicators of Compromise
+    sources:
+      - Reporters Without Borders
+      - RESIDENT.NGO
+    references:
+      - https://rsf.org/en/exclusive-rsf-uncovers-new-spyware-belarus
+      - https://rsf.org/sites/default/files/medias/file/2025/12/report.pdf
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: master
+      path: ResidentBat/residentbat.stix2
