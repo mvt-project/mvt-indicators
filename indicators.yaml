@@ -173,3 +173,16 @@ indicators:
       repo: mvt-indicators
       branch: master
       path: ResidentBat/residentbat.stix2
+
+  -
+    type: github
+    name: Cellebrite Indicators of Compromise
+    sources:
+      - Citizen Lab
+    references:
+      - https://citizenlab.ca/research/from-protest-to-peril-cellebrite-used-against-jordanian-civil-society/
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: master
+      path: cellebrite/cellebrite.stix2
