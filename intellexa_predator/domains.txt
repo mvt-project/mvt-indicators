@@ -29,6 +29,7 @@ altsantiri.news
 amazing.lab
 ancienthistory.xyz
 android-apps.tech
+angop.co
 aoatlasescort.com
 api-apple-buy.com
 api-telecommunication.com
@@ -59,6 +60,7 @@ bityl.me
 bity.ws
 blacktrail.xyz
 blitzmedia.live
+blocoinformativo.com
 bmw.gr.com
 bni-madagascar.com
 bookjob.club
@@ -116,6 +118,8 @@ cut.red
 cyber.country
 danas.bid
 dealstransfer.net
+despachantonline.com
+despachosnegocios
 dhll.live
 distedc.com
 download4you.xyz
@@ -146,7 +150,9 @@ etisalatgreen.com
 eventes.org
 eventnews.live
 ewish.cards
+exclusivo24h.com
 factosdiarios.co
+factosdiarios.online
 fastdownload.me
 fastnews.biz
 fast-notify.com
@@ -162,6 +168,8 @@ flash.gr.com
 flexipagez.com
 flowercafee.com
 flytaps.com
+folha8.net
+folha9.info
 folha-9.com
 forwardeshoptt.com
 fr-monde.com
@@ -204,6 +212,7 @@ ikea-egypt.net
 ilnk.xyz
 imparcialpress.com
 inews.gr.com
+informacao24.com
 informationrank.net
 informburo.info
 infosms-a.site
@@ -225,7 +234,10 @@ itly.link
 itter.me
 jakalas.online
 jofki.com
+jornaldeangola.co
 jornaldeangola.info
+jornaldeangola.net
+jornalf8.co
 jornalf8.com
 jquery-updater.xyz
 jumia-egy.com
@@ -291,6 +303,7 @@ moncn.co
 mozillaupdate.xyz
 msas.ws
 msbsck.com
+mujimbo.co
 mujimbos.co
 mujmbosnoticias.com
 mulherevips.com
@@ -326,6 +339,7 @@ notifications-sec.com
 notify-kz.info
 notify-service.biz
 novojornal.co
+novojornal.info
 novosti.bid
 nur-news.com
 oilgy.xyz
@@ -508,6 +522,7 @@ vlast-news.com
 vodafoneegypt.tech
 vodafonegypt.com
 vouliwatch.gr.com
+vslojasvendas.com
 wa-info.com
 walatparez.com
 wavekli.xyz
