@@ -156,7 +156,7 @@ indicators:
     github:
       owner: mvt-project
       repo: mvt-indicators
-      branch: master
+      branch: main
       path: candiru/candiru.stix2
 
   -
@@ -171,7 +171,7 @@ indicators:
     github:
       owner: mvt-project
       repo: mvt-indicators
-      branch: master
+      branch: main
       path: ResidentBat/residentbat.stix2
 
   -
@@ -184,5 +184,5 @@ indicators:
     github:
       owner: mvt-project
       repo: mvt-indicators
-      branch: master
+      branch: main
       path: cellebrite/cellebrite.stix2
