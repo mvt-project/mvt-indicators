@@ -2,8 +2,8 @@
 
 This repository contains network and device indicators of compromise (IoCs) related to the Coruna exploit kit, PLASMAGRID implant, and the CryptoWaters campaign targeting iOS devices and cryptocurrency wallet applications. These indicators were compiled from multiple reports including:
 
-* [Campaigns exploiting Signal, Line, and Google Chrome to target devices in multiple countries](https://blog.google/threat-analysis-group/campaigns-exploiting-signal-line-and-google-chrome/) by Google Threat Analysis Group (TAG)
-* [CryptoWaters: iVerify Discovers New iOS Threat Targeting Crypto Wallets](https://iverify.io/blog/cryptowaters) by iVerify
+* [Campaigns exploiting Signal, Line, and Google Chrome to target devices in multiple countries](https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit) by Google Threat Analysis Group (TAG)
+* [CryptoWaters: iVerify Discovers New iOS Threat Targeting Crypto Wallets](https://iverify.io/blog/coruna-inside-the-nation-state-grade-ios-exploit-kit-we-ve-been-tracking) by iVerify
 
 The campaign has been attributed to two clusters tracked by Google TAG as UNC6353 and UNC6691. The Coruna exploit kit delivers a post-exploitation implant known as PLASMAGRID, which targets cryptocurrency wallet applications on iOS devices.
 
