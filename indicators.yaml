@@ -186,3 +186,35 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: cellebrite/cellebrite.stix2
+
+  -
+    type: github
+    name: DarkSword Indicators of Compromise
+    sources:
+      - Google Threat Intelligence Group
+      - iVerify
+      - Lookout
+    references:
+      - https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain
+      - https://iverify.io/blog/darksword-ios-exploit-kit-explained
+      - https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-03-30_darksword/darksword.stix2
+
+  -
+    type: github
+    name: Coruna Indicators of Compromise
+    sources:
+      - Google Threat Intelligence Group
+      - iVerify
+    references:
+      - https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit?hl=en
+      - https://iverify.io/blog/coruna-inside-the-nation-state-grade-ios-exploit-kit-we-ve-been-tracking
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-03-03_coruna_cryptowaters/coruna.stix2
