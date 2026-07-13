@@ -218,3 +218,16 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2026-03-03_coruna_cryptowaters/coruna.stix2
+
+  -
+    type: github
+    name: Morpheus Indicators of Compromise
+    sources:
+      - Osservatorio Nessuno
+    references:
+      - https://osservatorionessuno.org/blog/2026/04/morpheus-a-new-spyware-linked-to-ips-intelligence
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-04-23_ips_morpheus/morpheus.stix2
