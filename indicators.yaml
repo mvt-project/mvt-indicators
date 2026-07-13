@@ -218,3 +218,20 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2026-03-03_coruna_cryptowaters/coruna.stix2
+
+  -
+    type: github
+    name: BTMOB Indicators of Compromise
+    sources:
+      - ESET
+      - Cyble Research
+      - Zimperium
+    references:
+      - https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices
+      - https://cyble.com/blog/btmob-rat-newly-discovered-android-malware
+      - https://github.com/Zimperium/IOC/tree/master/2025-04-BTMOB-RAT
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-05-26_btmob/btmob.stix2
