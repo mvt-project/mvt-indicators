@@ -231,6 +231,7 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2026-04-23_ips_morpheus/morpheus.stix2
+      
 -
     type: github
     name: BTMOB Indicators of Compromise
