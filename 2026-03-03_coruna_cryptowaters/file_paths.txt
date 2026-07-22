@@ -1,0 +1,12 @@
+/private/var/tmp/pl.core.lock
+/private/var/tmp/relaunch
+/private/var/root/Library/Caches/com.apple.nsurlsessiond/fsCachedData0E1A3DC1C51C2D879DE016E56D3EECE8
+/private/var/root/Library/Caches/com.apple.WebKit.WebContent/blob_d6c1a21adb11f0ea023b9a35
+/private/var/mobile/Library/Caches/.com.apple.mobileassetd.cache
+/private/var/mobile/Library/Preferences/com.apple.photolibraryd.plist
+/private/var/mobile/Library/Caches/.com.apple.notes.cache.plist
+/private/var/tmp/upgrade.dylib
+/private/var/tmp/uninstall
+/private/var/tmp/stop
+/private/var/tmp/pl.sp.exec.guard.lock
+Library/Preferences/com.apple.photolibraryd.plist

@@ -21,12 +21,14 @@ indicators:
       - Citizen Lab
       - Cisco
       - Inside Story
+      - iVerify
     references:
       - https://citizenlab.ca/2021/12/pegasus-vs-predator-dissidents-doubly-infected-iphone-reveals-cytrox-mercenary-spyware/
       - https://about.fb.com/news/2021/12/taking-action-against-surveillance-for-hire/
       - https://blog.talosintelligence.com/mercenary-intellexa-predator/
       - https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/
       - https://insidestory.gr/article/predatorgate-ti-egrafan-ta-sms-pagida-poy-elavan-epiheirimaties-ypoyrgoi-kai-dimosiografoi
+      - https://iverify.io/blog/trust-broken-at-the-core
     github:
       owner: mvt-project
       repo: mvt-indicators
@@ -115,3 +117,117 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2023-07-25_wyrmspy_dragonegg/wyrmspy_dragonegg.stix2
+
+  -
+    type: github
+    name: Wintego Helios Indicators of Compromise
+    sources:
+      - Amnesty International
+    references:
+      - https://securitylab.amnesty.org/latest/2024/05/a-web-of-surveillance/
+    github:
+      owner: AmnestyTech
+      repo: investigations
+      branch: master
+      path: 2024-05-02_wintego_helios/wintego_helios.stix2
+
+  -
+    type: github
+    name: NoviSpy (Serbia) Indicators of Compromise
+    sources:
+      - Amnesty International
+    references:
+      - https://securitylab.amnesty.org/latest/2024/12/serbia-a-digital-prison-spyware-and-cellebrite-used-on-journalists-and-activists/
+    github:
+      owner: AmnestyTech
+      repo: investigations
+      branch: master
+      path: 2024-12-16_serbia_novispy/novispy.stix2
+
+  -
+    type: github
+    name: Candiru (DevilsTongue) Indicators of Compromise
+    sources:
+      - Microsoft
+      - Recorded Future
+    references:
+      - https://www.microsoft.com/en-us/security/blog/2021/07/15/protecting-customers-from-a-private-sector-offensive-actor-using-0-day-exploits-and-devilstongue-malware/
+      - https://www.recordedfuture.com/research/tracking-candirus-devilstongue-spyware
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: candiru/candiru.stix2
+
+  -
+    type: github
+    name: ResidentBat Indicators of Compromise
+    sources:
+      - Reporters Without Borders
+      - RESIDENT.NGO
+    references:
+      - https://rsf.org/en/exclusive-rsf-uncovers-new-spyware-belarus
+      - https://rsf.org/sites/default/files/medias/file/2025/12/report.pdf
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: ResidentBat/residentbat.stix2
+
+  -
+    type: github
+    name: Cellebrite Indicators of Compromise
+    sources:
+      - Citizen Lab
+    references:
+      - https://citizenlab.ca/research/from-protest-to-peril-cellebrite-used-against-jordanian-civil-society/
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: cellebrite/cellebrite.stix2
+
+  -
+    type: github
+    name: DarkSword Indicators of Compromise
+    sources:
+      - Google Threat Intelligence Group
+      - iVerify
+      - Lookout
+    references:
+      - https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain
+      - https://iverify.io/blog/darksword-ios-exploit-kit-explained
+      - https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-03-30_darksword/darksword.stix2
+
+  -
+    type: github
+    name: Coruna Indicators of Compromise
+    sources:
+      - Google Threat Intelligence Group
+      - iVerify
+    references:
+      - https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit?hl=en
+      - https://iverify.io/blog/coruna-inside-the-nation-state-grade-ios-exploit-kit-we-ve-been-tracking
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-03-03_coruna_cryptowaters/coruna.stix2
+
+  -
+    type: github
+    name: Morpheus Indicators of Compromise
+    sources:
+      - Osservatorio Nessuno
+    references:
+      - https://osservatorionessuno.org/blog/2026/04/morpheus-a-new-spyware-linked-to-ips-intelligence
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-04-23_ips_morpheus/morpheus.stix2
