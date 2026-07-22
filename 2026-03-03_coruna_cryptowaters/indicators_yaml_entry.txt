@@ -1,0 +1,14 @@
+  -
+    type: github
+    name: Coruna / CryptoWaters Indicators of Compromise
+    sources:
+      - Google
+      - iVerify
+    references:
+      - https://blog.google/threat-analysis-group/campaigns-exploiting-signal-line-and-google-chrome/
+      - https://iverify.io/blog/cryptowaters
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: coruna_cryptowaters/coruna.stix2
