@@ -9,6 +9,7 @@ This repository contains network and device indicators of compromised (IoCs) rel
 * [Predatorgate: Τι έγραφαν τα SMS-παγίδα που έλαβαν επιχειρηματίες, υπουργοί και δημοσιογράφοι](https://insidestory.gr/article/predatorgate-ti-egrafan-ta-sms-pagida-poy-elavan-epiheirimaties-ypoyrgoi-kai-dimosiografoi) by Inside Story
 * [Active Lycantrox infrastructure illumination](https://blog.sekoia.io/active-lycantrox-infrastructure-illumination/) by Sekoia
 * [Predator Spyware Operators Rebuild Multi-Tier Infrastructure to Target Mobile Devices](https://www.recordedfuture.com/predator-spyware-operators-rebuild-multi-tier-infrastructure-target-mobile-devices) by Recorded Future
+* [Predator Spyware Infrastructure Returns Following Exposure and Sanctions](https://www.recordedfuture.com/research/predator-spyware-infrastructure-returns-following-exposure-sanctions) by Recorded Future
 * [The Predator spyware ecosystem is not dead](https://blog.sekoia.io/the-predator-spyware-ecosystem-is-not-dead/) by Sekoia
 * [Trust Broken at the Core](https://iverify.io/blog/trust-broken-at-the-core) by iVerify
 * Additional indicators of compromise were identified by the Amnesty Tech Security Lab as part of an independent investigation.
@@ -19,4 +20,5 @@ It includes the following files:
 * `config_profiles.txt`: UUID of suspicious configuration profiles dropped by the Predator spyware
 * `predator.stix2`: [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro.html) file containing all indicators
 * `domains.txt`: list of Predator domains
+* `ip-addresses.txt`: list of Predator infrastructure IP addresses
 * `file_paths.txt`: file paths for Predator payloads on disk in Android and iOS.
