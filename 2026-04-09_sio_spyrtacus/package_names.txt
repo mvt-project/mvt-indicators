@@ -1,0 +1,4 @@
+com.elysium.core
+it.taog
+org.util.carriersvc
+sys.base.service

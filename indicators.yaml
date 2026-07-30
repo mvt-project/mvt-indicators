@@ -231,3 +231,16 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2026-04-23_ips_morpheus/morpheus.stix2
+
+  -
+    type: github
+    name: Spyrtacus Indicators of Compromise
+    sources:
+      - Osservatorio Nessuno
+    references:
+      - https://osservatorionessuno.org/blog/2026/04/italian-spyware-maker-sio-still-developing-and-distributing-spyrtacus/
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-04-09_sio_spyrtacus/spyrtacus.stix2
