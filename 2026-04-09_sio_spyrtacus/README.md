@@ -2,13 +2,13 @@
 
 Spyrtacus is an Android spyware likely developed in Italy by SIO S.p.A., recently analyzed by the Italian NGO Osservatorio Nessuno.
 
-Its capabilities include taking screenshots, uploading files, recording calls, exporting WhatsApp messages, and executing downloaded modules dynamically at runtime. 
+Its capabilities include taking screenshots, uploading files, recording calls, exporting WhatsApp messages, and executing downloaded modules dynamically at runtime.
 
-The infection in the analyzed case was performed via social engineering, with the 
+The infection in the analyzed case was performed via social engineering, with the
 target receiving an SMS impersonating an Italian ISP.
 
-The IoCs pertain to a 2025 sample of the Spyrtacus spyware, version `8.71`. 
-IoCs related to older samples of this spyware are included.  
+The IoCs pertain to a 2025 sample of the Spyrtacus spyware, version `8.71`.
+IoCs related to older samples of this spyware are included.
 
 It seems that a [newer version](https://www.lawfulinterceptionacademy.eu/clir) (8.72) of the spyware exists.
 

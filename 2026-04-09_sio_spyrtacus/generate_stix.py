@@ -32,7 +32,7 @@ if __name__ == "__main__":
         package_names = list(set([a.strip() for a in f.read().split()]))
 
     with open("favicon_hash.txt") as f:
-        favicon_hash = list(set([a.strip() for a in f.read().split()]))
+        favicon_hashes = list(set([a.strip() for a in f.read().split()]))
 
     res = []
     malware = Malware(name=malware_name, is_family=False, description="IOCs for Spyrtacus")
@@ -53,10 +53,9 @@ if __name__ == "__main__":
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
 
-    for favicon_hash in favicon_hash:
-        hash_type = hash_format(favicon_hash)
-        if not hash_type:
-            raise ValueError("Unknown hash type for {}".format(favicon_hash))
+    for favicon_hash in favicon_hashes:
+        if hash_format(favicon_hash) != "sha256":
+            raise ValueError("Favicon hash is not in SHA256 format: {}".format(favicon_hash))
         i = Indicator(indicator_types=["malicious-activity"], pattern=f"[file:hashes.sha256='{favicon_hash}']", pattern_type="stix")
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
