@@ -14,6 +14,9 @@ if __name__ == "__main__":
     with open("domains.txt") as f:
         domains = list(set([a.strip() for a in f.read().split()]))
 
+    with open("ip-addresses.txt") as f:
+        ips = list(set([a.strip() for a in f.read().split()]))
+
     with open("file_paths.txt") as f:
         filepaths = list(set([a.strip() for a in f.read().split()]))
 
@@ -22,6 +25,11 @@ if __name__ == "__main__":
     res.append(malware)
     for d in domains:
         i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
+        res.append(i)
+        res.append(Relationship(i, 'indicates', malware))
+
+    for ip in ips:
+        i = Indicator(indicator_types=["malicious-activity"], pattern="[ipv4-addr:value='{}']".format(ip), pattern_type="stix")
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
 
