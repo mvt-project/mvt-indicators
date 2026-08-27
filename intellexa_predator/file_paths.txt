@@ -7,10 +7,8 @@
 /private/var/tmp/etherium.txt
 /private/var/tmp/helper.sock
 /private/var/tmp/etherium.txt
-/private/var/tmp/l/
 /tmp/etherium.txt
 /tmp/kusama.txt
-/tmp/l/
 /data/local/tmp/wd/pred.so
 /data/local/tmp/wd/fs.db
 /data/local/tmp/wd/
