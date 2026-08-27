@@ -146,6 +146,19 @@ indicators:
 
   -
     type: github
+    name: EagleMsgSpy Indicators of Compromise
+    sources:
+      - Lookout
+    references:
+      - https://www.lookout.com/threat-intelligence/article/eaglemsgspy-chinese-android-surveillanceware
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2024-12-25_eaglemsgspy/eaglemsgspy.stix2
+
+  -
+    type: github
     name: Candiru (DevilsTongue) Indicators of Compromise
     sources:
       - Microsoft

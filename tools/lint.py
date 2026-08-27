@@ -3,11 +3,6 @@
 
 Errors (exit 1) are things that would produce a wrong or unusable bundle.
 Warnings are printed but do not fail the run.
-
-Formatting rules (trailing newline, whitespace, duplicates, letter case,
-hostname syntax, absolute paths) are reported through HYGIENE. They are
-warnings until the existing collections have been cleaned up, after which
-HYGIENE will be switched to err.
 """
 
 import ipaddress
@@ -47,7 +42,7 @@ def warn(msg):
     warnings.append(msg)
 
 
-HYGIENE = warn
+HYGIENE = err
 
 
 def check_value(rel, value):

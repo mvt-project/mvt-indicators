@@ -9,4 +9,3 @@
 /private/var/tmp/uninstall
 /private/var/tmp/stop
 /private/var/tmp/pl.sp.exec.guard.lock
-Library/Preferences/com.apple.photolibraryd.plist
