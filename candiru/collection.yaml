@@ -1,0 +1,5 @@
+id: candiru
+name: "Candiru"
+description: "IOCs related to Candiru's DevilsTongue."
+created: 2025-08-08
+output: candiru.stix2

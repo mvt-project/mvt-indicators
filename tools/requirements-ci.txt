@@ -1,0 +1,4 @@
+# Everything CI needs: the build tools plus the consumers we verify against
+-r requirements.txt
+stix2>=3.0.1
+mvt

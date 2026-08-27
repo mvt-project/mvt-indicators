@@ -1,0 +1,23 @@
+name: Verify indicators
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install build tools and MVT
+        run: pip install -r tools/requirements-ci.txt
+      - name: Lint source files
+        run: python tools/lint.py
+      - name: Check committed bundles match their sources
+        run: python tools/build.py --check
+      - name: Verify bundles with MVT and stix2
+        run: python tools/verify.py

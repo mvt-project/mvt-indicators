@@ -1,0 +1,5 @@
+id: ips_morpheus
+name: "Morpheus"
+description: "IOCs for Morpheus"
+created: 2026-04-23
+output: morpheus.stix2

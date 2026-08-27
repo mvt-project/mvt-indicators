@@ -1,0 +1,5 @@
+id: wyrmspy_dragonegg
+name: "WyrmSpy_DragonEgg"
+description: "IOCs related to WyrmSpy and DragonEgg Android spyware documented by Lookout."
+created: 2023-07-25
+output: wyrmspy_dragonegg.stix2

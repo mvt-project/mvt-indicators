@@ -1,0 +1,5 @@
+id: sio_spyrtacus
+name: "Spyrtacus"
+description: "IOCs for Spyrtacus"
+created: 2026-04-09
+output: spyrtacus.stix2

@@ -1,0 +1,2 @@
+# Needed to run tools/build.py and tools/lint.py
+PyYAML>=6.0

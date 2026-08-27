@@ -1,0 +1,5 @@
+id: quadream_kingspawn
+name: "KingSpawn"
+description: "IOCs related to Quadream KingsPawn or Reign spyware"
+created: 2023-04-11
+output: kingspawn.stix2

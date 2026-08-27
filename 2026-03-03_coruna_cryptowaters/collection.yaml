@@ -1,0 +1,5 @@
+id: coruna_cryptowaters
+name: "Coruna"
+description: "IOCs for the Coruna exploit kit, PLASMAGRID implant, and CryptoWaters campaign targeting iOS devices and cryptocurrency wallet apps. Attributed to UNC6353 and UNC6691."
+created: 2026-03-03
+output: coruna.stix2

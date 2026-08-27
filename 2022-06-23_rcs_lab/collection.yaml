@@ -1,0 +1,4 @@
+id: rcs_lab
+name: "RCSLab"
+created: 2022-06-23
+output: rcs.stix2

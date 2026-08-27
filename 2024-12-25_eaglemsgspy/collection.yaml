@@ -1,0 +1,5 @@
+id: eaglemsgspy
+name: "EagleMsgSpy"
+description: "IOCs for EagleMsgSpy as documented by Lookout Security"
+created: 2024-12-25
+output: eaglemsgspy.stix2
