@@ -2007,13 +2007,13 @@
         {
             "type": "indicator",
             "spec_version": "2.1",
-            "id": "indicator--24c5259d-0a15-540a-ae61-8561d3d9990f",
+            "id": "indicator--40b33642-5d52-55db-b531-d6c5f3f6c68b",
             "created": "2026-03-03T00:00:00.000Z",
             "modified": "2026-03-03T00:00:00.000Z",
             "indicator_types": [
                 "malicious-activity"
             ],
-            "pattern": "[domain-name:value='fgr1w2gnsdvsb.xyz/x']",
+            "pattern": "[domain-name:value='fgr1w2gnsdvsb.xyz']",
             "pattern_type": "stix",
             "pattern_version": "2.1",
             "valid_from": "2026-03-03T00:00:00.000Z"
@@ -2021,11 +2021,11 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--0e1e620a-6fa9-5ca6-b573-103364a28fa3",
+            "id": "relationship--b65fe8fe-a4f2-5383-b483-db34e5fea4e6",
             "created": "2026-03-03T00:00:00.000Z",
             "modified": "2026-03-03T00:00:00.000Z",
             "relationship_type": "indicates",
-            "source_ref": "indicator--24c5259d-0a15-540a-ae61-8561d3d9990f",
+            "source_ref": "indicator--40b33642-5d52-55db-b531-d6c5f3f6c68b",
             "target_ref": "malware--04bf6518-2d79-58a8-8d45-103870452afa"
         },
         {
@@ -4690,30 +4690,6 @@
             "modified": "2026-03-03T00:00:00.000Z",
             "relationship_type": "indicates",
             "source_ref": "indicator--aa1d1ad8-18be-5b23-ad89-9e3c85e34b1c",
-            "target_ref": "malware--04bf6518-2d79-58a8-8d45-103870452afa"
-        },
-        {
-            "type": "indicator",
-            "spec_version": "2.1",
-            "id": "indicator--87cee728-ff96-56c6-89ca-77470f2fbe47",
-            "created": "2026-03-03T00:00:00.000Z",
-            "modified": "2026-03-03T00:00:00.000Z",
-            "indicator_types": [
-                "malicious-activity"
-            ],
-            "pattern": "[file:path='Library/Preferences/com.apple.photolibraryd.plist']",
-            "pattern_type": "stix",
-            "pattern_version": "2.1",
-            "valid_from": "2026-03-03T00:00:00.000Z"
-        },
-        {
-            "type": "relationship",
-            "spec_version": "2.1",
-            "id": "relationship--97fea05a-b526-525e-86ea-99fde54b158f",
-            "created": "2026-03-03T00:00:00.000Z",
-            "modified": "2026-03-03T00:00:00.000Z",
-            "relationship_type": "indicates",
-            "source_ref": "indicator--87cee728-ff96-56c6-89ca-77470f2fbe47",
             "target_ref": "malware--04bf6518-2d79-58a8-8d45-103870452afa"
         },
         {

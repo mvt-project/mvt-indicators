@@ -6,7 +6,6 @@
 /private/var/tmp/kusama.txt
 /private/var/tmp/etherium.txt
 /private/var/tmp/helper.sock
-/private/var/tmp/etherium.txt
 /tmp/etherium.txt
 /tmp/kusama.txt
 /data/local/tmp/wd/pred.so

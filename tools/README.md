@@ -61,11 +61,6 @@ Blank lines and lines starting with `#` are ignored, so sources and dates can
 be noted inline. Values may not contain `'` or `\`, which cannot appear
 unescaped inside a STIX pattern string.
 
-`tools/lint.py` reports the formatting rules above (letter case, absolute
-paths, hostname syntax, duplicates, trailing whitespace and newline) as
-warnings until the existing collections have been cleaned up; they will then
-become errors.
-
 ## Why the output is deterministic
 
 * Object identifiers are UUIDv5 values: `uuid5(NAMESPACE, "indicator|<collection id>|<pattern>")`
