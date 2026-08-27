@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ce7cc5a8-fa53-4ff4-841b-cf526f3c8b07",
+    "id": "bundle--efbedcdb-d8e2-5ebb-83d0-91afa05a795c",
     "objects": [
         {
             "type": "malware",
             "spec_version": "2.1",
-            "id": "malware--afe324d5-5d65-4060-92f9-98a5012557d0",
-            "created": "2026-01-22T21:58:55.050482Z",
-            "modified": "2026-01-22T21:58:55.050482Z",
+            "id": "malware--a3e96486-d98a-5490-8a6e-fd4bc0acad3f",
+            "created": "2026-01-22T00:00:00.000Z",
+            "modified": "2026-01-22T00:00:00.000Z",
             "name": "Cellebrite",
             "description": "IOCs for Cellebrite",
             "is_family": false
@@ -15,26 +15,26 @@
         {
             "type": "indicator",
             "spec_version": "2.1",
-            "id": "indicator--55319823-913e-4283-9454-156ef3bd285c",
-            "created": "2026-01-22T21:58:55.051167Z",
-            "modified": "2026-01-22T21:58:55.051167Z",
+            "id": "indicator--b1e0a5d6-7767-579b-9d62-2cc5a3713391",
+            "created": "2026-01-22T00:00:00.000Z",
+            "modified": "2026-01-22T00:00:00.000Z",
             "indicator_types": [
                 "malicious-activity"
             ],
             "pattern": "[app:id='com.client.appA']",
             "pattern_type": "stix",
             "pattern_version": "2.1",
-            "valid_from": "2026-01-22T21:58:55.051167Z"
+            "valid_from": "2026-01-22T00:00:00.000Z"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--2abc42e6-3375-4bd3-a746-6199e8af5ce8",
-            "created": "2026-01-22T21:58:55.063505Z",
-            "modified": "2026-01-22T21:58:55.063505Z",
+            "id": "relationship--de7d55fe-a2d5-5352-9828-7a6843175aca",
+            "created": "2026-01-22T00:00:00.000Z",
+            "modified": "2026-01-22T00:00:00.000Z",
             "relationship_type": "indicates",
-            "source_ref": "indicator--55319823-913e-4283-9454-156ef3bd285c",
-            "target_ref": "malware--afe324d5-5d65-4060-92f9-98a5012557d0"
+            "source_ref": "indicator--b1e0a5d6-7767-579b-9d62-2cc5a3713391",
+            "target_ref": "malware--a3e96486-d98a-5490-8a6e-fd4bc0acad3f"
         }
     ]
 }

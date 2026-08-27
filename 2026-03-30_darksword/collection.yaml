@@ -1,0 +1,5 @@
+id: darksword
+name: "DarkSword"
+description: "IOCs related to the DarkSword iOS exploit chain documented by GTIG, iVerify, and Lookout."
+created: 2026-03-30
+output: darksword.stix2

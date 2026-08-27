@@ -1,0 +1,5 @@
+id: cellebrite
+name: "Cellebrite"
+description: "IOCs for Cellebrite"
+created: 2026-01-22
+output: cellebrite.stix2

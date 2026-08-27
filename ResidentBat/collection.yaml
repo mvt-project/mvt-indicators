@@ -1,0 +1,5 @@
+id: residentbat
+name: "ResidentBat"
+description: "IOCs for ResidentBat"
+created: 2025-12-17
+output: residentbat.stix2

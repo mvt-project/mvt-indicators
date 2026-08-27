@@ -1,0 +1,5 @@
+id: btmob
+name: "BTMOB"
+description: "IOCs for BTMOB"
+created: 2026-05-26
+output: btmob.stix2
