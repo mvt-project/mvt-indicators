@@ -1,0 +1,5 @@
+id: it_assistenza_clienti
+name: "IT Assistenza Clienti"
+description: "IOCs for the 'Assistenza Clienti' Android surveillance app (Italian fake carrier-support lure)"
+created: 2026-09-05
+output: it_assistenza_clienti.stix2

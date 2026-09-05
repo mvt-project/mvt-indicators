@@ -273,3 +273,16 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2026-04-09_sio_spyrtacus/spyrtacus.stix2
+
+  -
+    type: github
+    name: IT Assistenza Clienti Indicators of Compromise
+    sources:
+      - Riccardo Bacci (Mythos Sentinel)
+    references:
+      - https://mythossentinel.com/en/assistenza-clienti-android-surveillance-app
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-09-05_it_assistenza_clienti/it_assistenza_clienti.stix2

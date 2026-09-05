@@ -1,0 +1,88 @@
+{
+    "type": "bundle",
+    "id": "bundle--8780c07e-84ec-51aa-bd3f-512b04b2c04d",
+    "objects": [
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--91f115bc-bd69-5ea8-8c10-bbaefdf9d505",
+            "created": "2026-09-05T00:00:00.000Z",
+            "modified": "2026-09-05T00:00:00.000Z",
+            "name": "IT Assistenza Clienti",
+            "description": "IOCs for the 'Assistenza Clienti' Android surveillance app (Italian fake carrier-support lure)",
+            "is_family": false
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e71f82c3-42b6-5b71-a112-d1388a996bcb",
+            "created": "2026-09-05T00:00:00.000Z",
+            "modified": "2026-09-05T00:00:00.000Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[domain-name:value='telecomunicazioni-mobile.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-09-05T00:00:00.000Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f0c8c0c4-f534-5d69-bdfe-99de5bff6f3b",
+            "created": "2026-09-05T00:00:00.000Z",
+            "modified": "2026-09-05T00:00:00.000Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--e71f82c3-42b6-5b71-a112-d1388a996bcb",
+            "target_ref": "malware--91f115bc-bd69-5ea8-8c10-bbaefdf9d505"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--09843f47-808d-55cd-8a68-39d9df60bd8c",
+            "created": "2026-09-05T00:00:00.000Z",
+            "modified": "2026-09-05T00:00:00.000Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ipv4-addr:value='93.186.254.171']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-09-05T00:00:00.000Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d002636a-9654-52be-932d-cae63076f576",
+            "created": "2026-09-05T00:00:00.000Z",
+            "modified": "2026-09-05T00:00:00.000Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--09843f47-808d-55cd-8a68-39d9df60bd8c",
+            "target_ref": "malware--91f115bc-bd69-5ea8-8c10-bbaefdf9d505"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1440cf90-b820-5db3-92d8-e70bef3af7bf",
+            "created": "2026-09-05T00:00:00.000Z",
+            "modified": "2026-09-05T00:00:00.000Z",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[app:id='com.itassistenzaclienti']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-09-05T00:00:00.000Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a3dc81aa-381e-518d-81eb-fe51c054f228",
+            "created": "2026-09-05T00:00:00.000Z",
+            "modified": "2026-09-05T00:00:00.000Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--1440cf90-b820-5db3-92d8-e70bef3af7bf",
+            "target_ref": "malware--91f115bc-bd69-5ea8-8c10-bbaefdf9d505"
+        }
+    ]
+}
