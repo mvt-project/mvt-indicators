@@ -166,7 +166,7 @@ def check_index(collections):
     path = os.path.join(REPO_ROOT, "indicators.yaml")
     with open(path, encoding="utf-8") as handle:
         index = yaml.safe_load(handle)
-    outputs = {os.path.relpath(os.path.join(folder, meta["output"]), REPO_ROOT)
+    outputs = {os.path.relpath(os.path.join(folder, meta["output"]), REPO_ROOT).replace(os.sep, "/")
                for folder, meta in collections}
     referenced = set()
     for entry in index.get("indicators", []):

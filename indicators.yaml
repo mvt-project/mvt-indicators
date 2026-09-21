@@ -273,3 +273,15 @@ indicators:
       repo: mvt-indicators
       branch: main
       path: 2026-04-09_sio_spyrtacus/spyrtacus.stix2
+  -
+    type: github
+    name: Coruna and DarkSword Proliferation Indicators of Compromise
+    sources:
+      - iVerify
+    references:
+      - https://www.iverify.com/blog/proliferation-of-coruna-and-darksword
+    github:
+      owner: mvt-project
+      repo: mvt-indicators
+      branch: main
+      path: 2026-09-15_coruna_darksword/coruna_darksword.stix2

@@ -1,0 +1,5 @@
+id: coruna_darksword_proliferation
+name: "Coruna and DarkSword proliferation"
+description: "Network, filesystem and SHA-256 indicators published by iVerify on September 15, 2026."
+created: 2026-09-15
+output: coruna_darksword.stix2
